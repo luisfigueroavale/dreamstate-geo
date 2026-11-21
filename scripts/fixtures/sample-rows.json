@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "url": "/compare/cedar",
+      "page_type": "compare",
+      "days": [
+        {
+          "date": "2026-01-04",
+          "clicks": 2,
+          "impressions": 100,
+          "position": 14
+        },
+        {
+          "date": "2026-02-01",
+          "clicks": 20,
+          "impressions": 200,
+          "position": 8
+        }
+      ]
+    },
+    {
+      "url": "/compare/maple",
+      "page_type": "compare",
+      "days": [
+        {
+          "date": "2026-01-04",
+          "clicks": 5,
+          "impressions": 100,
+          "position": 12
+        },
+        {
+          "date": "2026-02-01",
+          "clicks": 6,
+          "impressions": 100,
+          "position": 12
+        }
+      ]
+    }
+  ]
+}

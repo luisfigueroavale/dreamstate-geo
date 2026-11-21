@@ -1,0 +1,14 @@
+node_modules/
+brand.local/
+audience.local/
+search.local/
+.banned-terms.local
+work/
+.env*
+*.key
+*credentials*.json
+.DS_Store
+vault/voice/*
+!vault/voice/README.md
+vault/sources/*
+!vault/sources/README.md

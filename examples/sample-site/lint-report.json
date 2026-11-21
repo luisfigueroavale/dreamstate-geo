@@ -1,0 +1,10 @@
+{
+  "fictional": true,
+  "note": "Fictional company. Cedar Line is not real. This is not Dreamstate data.",
+  "pass": true,
+  "grade": 4.3,
+  "target_grade": 8,
+  "fail_above": 10,
+  "failures": [],
+  "warnings": []
+}

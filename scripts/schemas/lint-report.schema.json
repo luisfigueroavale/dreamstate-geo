@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["fictional", "note", "pass", "grade", "target_grade", "fail_above", "failures", "warnings"],
+  "properties": {
+    "fictional": { "const": true },
+    "note": { "type": "string", "minLength": 1 },
+    "pass": { "type": "boolean" },
+    "grade": { "type": "number" },
+    "target_grade": { "const": 8 },
+    "fail_above": { "const": 10 },
+    "failures": { "type": "array", "items": { "type": "string" } },
+    "warnings": { "type": "array", "items": { "type": "string" } }
+  }
+}

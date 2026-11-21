@@ -1,0 +1,98 @@
+{
+  "fictional": true,
+  "note": "Fictional company. Cedar Line is not real. This is not Dreamstate data.",
+  "result": {
+    "as_of": "2026-03-20",
+    "data_end": "2026-03-17",
+    "readings": [
+      {
+        "id": "cedar-compare",
+        "page": "/compare/cedar",
+        "page_type": "compare",
+        "kind": "new-page",
+        "first_crawled_on": "2026-02-01",
+        "window_days": 14,
+        "due": true,
+        "verdict": "too little data",
+        "adjusted_ctr": 0.04,
+        "page_before": {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": 0,
+          "position": null
+        },
+        "page_after": {
+          "clicks": 20,
+          "impressions": 200,
+          "ctr": 0.1,
+          "position": 8
+        },
+        "control_before": {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": 0,
+          "position": null
+        },
+        "control_after": {
+          "clicks": 6,
+          "impressions": 100,
+          "ctr": 0.06,
+          "position": 12
+        },
+        "control_pages": [
+          "/compare/maple"
+        ]
+      },
+      {
+        "id": "cedar-compare",
+        "page": "/compare/cedar",
+        "page_type": "compare",
+        "kind": "new-page",
+        "first_crawled_on": "2026-02-01",
+        "window_days": 28,
+        "due": true,
+        "verdict": "better",
+        "adjusted_ctr": 0.07,
+        "page_before": {
+          "clicks": 2,
+          "impressions": 100,
+          "ctr": 0.02,
+          "position": 14
+        },
+        "page_after": {
+          "clicks": 20,
+          "impressions": 200,
+          "ctr": 0.1,
+          "position": 8
+        },
+        "control_before": {
+          "clicks": 5,
+          "impressions": 100,
+          "ctr": 0.05,
+          "position": 12
+        },
+        "control_after": {
+          "clicks": 6,
+          "impressions": 100,
+          "ctr": 0.06,
+          "position": 12
+        },
+        "control_pages": [
+          "/compare/maple"
+        ]
+      },
+      {
+        "id": "cedar-compare",
+        "page": "/compare/cedar",
+        "page_type": "compare",
+        "kind": "new-page",
+        "first_crawled_on": "2026-02-01",
+        "window_days": 56,
+        "due": false,
+        "verdict": null,
+        "reason": "window is not complete yet"
+      }
+    ],
+    "pause_kinds": []
+  }
+}

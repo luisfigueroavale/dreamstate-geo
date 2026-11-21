@@ -1,0 +1,16 @@
+{
+  "name": "dreamstate-geo",
+  "private": true,
+  "type": "module",
+  "description": "Agent skills that get a site found in Google and named in AI answers, run on Dreamstate.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test scripts/check.test.mjs scripts/page-lint.test.mjs scripts/brief-check.test.mjs scripts/read-changes.test.mjs",
+    "lint-page": "node scripts/page-lint.mjs",
+    "read-changes": "node scripts/read-changes.mjs"
+  }
+}

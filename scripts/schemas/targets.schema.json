@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["metrics"],
+  "properties": {
+    "metrics": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "source", "baseline", "target", "baseline_on", "target_on"],
+        "properties": {
+          "id": {
+            "enum": [
+              "answer_mention_rate",
+              "answer_citation_share",
+              "nonbrand_clicks_28d",
+              "nonbrand_impressions_28d",
+              "queries_in_top10",
+              "priority_pages_indexed_pct"
+            ]
+          },
+          "source": { "type": "string", "minLength": 1 },
+          "baseline": { "type": ["number", "null"] },
+          "target": { "type": ["number", "null"] },
+          "baseline_on": { "type": ["string", "null"] },
+          "target_on": { "type": ["string", "null"] },
+          "unit": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}
