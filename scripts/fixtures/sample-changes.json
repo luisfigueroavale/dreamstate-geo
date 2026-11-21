@@ -1,0 +1,14 @@
+{
+  "changes": [
+    {
+      "example": false,
+      "id": "cedar-compare",
+      "page": "/compare/cedar",
+      "page_type": "compare",
+      "kind": "new-page",
+      "shipped_on": "2026-01-30",
+      "first_crawled_on": "2026-02-01",
+      "note": "Fictional."
+    }
+  ]
+}

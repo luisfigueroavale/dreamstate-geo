@@ -1,0 +1,64 @@
+{
+  "metrics": [
+    {
+      "id": "answer_mention_rate",
+      "source": "visibility.prompt_metrics_list",
+      "baseline": null,
+      "target": null,
+      "baseline_on": null,
+      "target_on": null,
+      "unit": "share of completed runs that name the brand",
+      "note": "From visibility_pct. If run_count and inconclusive_run_count are both 0, a 0 is unmeasured, not a real zero."
+    },
+    {
+      "id": "answer_citation_share",
+      "source": "visibility.citations",
+      "baseline": null,
+      "target": null,
+      "baseline_on": null,
+      "target_on": null,
+      "unit": "share of citations that point at our pages",
+      "note": "Unknown until a tool returns a figure. Unknown is not zero."
+    },
+    {
+      "id": "nonbrand_clicks_28d",
+      "source": "visibility.keywords_get",
+      "baseline": null,
+      "target": null,
+      "baseline_on": null,
+      "target_on": null,
+      "unit": "clicks in 28 days, brand queries removed by the owner",
+      "note": "Unknown until a tool returns a figure. Unknown is not zero."
+    },
+    {
+      "id": "nonbrand_impressions_28d",
+      "source": "visibility.keywords_get",
+      "baseline": null,
+      "target": null,
+      "baseline_on": null,
+      "target_on": null,
+      "unit": "impressions in 28 days, brand queries removed by the owner",
+      "note": "Unknown until a tool returns a figure. Unknown is not zero."
+    },
+    {
+      "id": "queries_in_top10",
+      "source": "visibility.keywords_get",
+      "baseline": null,
+      "target": null,
+      "baseline_on": null,
+      "target_on": null,
+      "unit": "queries whose average position is 10 or better",
+      "note": "Unknown until a tool returns a figure. Unknown is not zero."
+    },
+    {
+      "id": "priority_pages_indexed_pct",
+      "source": "visibility.sitemap_get",
+      "baseline": null,
+      "target": null,
+      "baseline_on": null,
+      "target_on": null,
+      "unit": "share of priority pages present in the sitemap read",
+      "note": "Unknown until a tool returns a figure. Unknown is not zero."
+    }
+  ]
+}

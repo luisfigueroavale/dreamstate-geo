@@ -1,0 +1,14 @@
+{
+  "changes": [
+    {
+      "example": true,
+      "id": "example-refresh",
+      "page": "/example/shared-weekly-plan",
+      "page_type": "how-to",
+      "kind": "refresh",
+      "shipped_on": "2026-01-01",
+      "first_crawled_on": "2026-01-03",
+      "note": "Marked example. Not a real change. Real rows live in search.local/changes.json."
+    }
+  ]
+}

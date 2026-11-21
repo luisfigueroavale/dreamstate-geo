@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["fictional", "note", "result"],
+  "properties": {
+    "fictional": { "const": true },
+    "note": { "type": "string", "minLength": 1 },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "data_end", "readings", "pause_kinds"],
+      "properties": {
+        "as_of": { "type": "string" },
+        "data_end": { "type": "string" },
+        "readings": { "type": "array" },
+        "pause_kinds": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["changes"],
+  "properties": {
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["example", "id", "page", "page_type", "kind", "shipped_on", "first_crawled_on"],
+        "properties": {
+          "example": { "type": "boolean" },
+          "id": { "type": "string", "minLength": 1 },
+          "page": { "type": "string", "minLength": 1 },
+          "page_type": { "enum": ["compare", "roundup", "how-to"] },
+          "kind": { "enum": ["refresh", "new-page", "health", "outreach"] },
+          "shipped_on": { "type": ["string", "null"] },
+          "first_crawled_on": { "type": ["string", "null"] },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

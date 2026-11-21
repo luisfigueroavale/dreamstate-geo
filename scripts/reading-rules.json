@@ -1,0 +1,8 @@
+{
+  "lag_days": 3,
+  "reading_days": [14, 28, 56],
+  "full_reading_days": 28,
+  "min_impressions": 100,
+  "better_adjusted_ctr": 0.005,
+  "worse_adjusted_ctr": -0.005
+}
