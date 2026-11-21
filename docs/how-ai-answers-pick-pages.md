@@ -12,7 +12,7 @@ The answer sits in the first 60 words. A reader, and a model, should not have to
 
 ## Every heading answers itself
 
-The first sentence under a heading answers that heading in 25 words or fewer. A model often lifts that sentence. If the sentence is a promise to explain later, the quote is empty.
+Each section opens with one sentence that settles its heading, and that sentence stays within 25 words. A model often lifts that sentence. If the sentence is a promise to explain later, the quote is empty.
 
 ## Facts have a source and a date
 

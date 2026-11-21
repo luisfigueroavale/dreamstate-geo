@@ -6,6 +6,8 @@ Numbers come from a tool. Unknown is not zero. The script that applies this page
 
 Search Console lags about 2 days. Every window ends 3 days before the day you run the reading. The before window and the after window have the same number of days.
 
+Site-wide totals come from one `visibility.keywords_get` call with `days` 28. That call has no page rows. Per-page clicks, impressions, and position come from the owner's Search Console Pages and Queries CSVs in `search.local/exports/`.
+
 Readings happen at 14, 28, and 56 days after the first crawl that follows the change.
 
 - 14 days is early. It can change what you pick next. It is not a final verdict.
@@ -47,7 +49,9 @@ After two full readings of the same kind that are `no clear change` or `worse`, 
 
 ## AI answers
 
-Report completed runs, mentions, citations, and the percentage together, per engine and per locale. Zero completed runs is `unavailable`, not 0%. A changed prompt set starts a new baseline, and the note says so. The cap on tracked prompts is 25.
+Read `visibility.prompt_metrics_list` for `run_count`, `citation_count`, and `visibility_pct`. A probe hits ChatGPT only. Name another engine only when `last_probed_at_by_engine` actually lists it. Do not invent a locale split.
+
+If `run_count` and `inconclusive_run_count` are both 0, a `visibility_pct` of 0 is unmeasured. Do not publish that 0 as a rate. When the prompt list changes, rates start over from that date, and the note says so. The cap on tracked prompts is 25.
 
 ## Targets
 
@@ -55,7 +59,7 @@ Report completed runs, mentions, citations, and the percentage together, per eng
 
 | Metric | Source |
 |---|---|
-| `answer_mention_rate` | `visibility.tracked_prompts.status` |
+| `answer_mention_rate` | `visibility.prompt_metrics_list` |
 | `answer_citation_share` | `visibility.citations` |
 | `nonbrand_clicks_28d` | `visibility.keywords_get` |
 | `nonbrand_impressions_28d` | `visibility.keywords_get` |

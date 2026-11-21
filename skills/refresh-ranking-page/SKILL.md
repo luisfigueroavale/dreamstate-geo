@@ -13,7 +13,7 @@ Refresh one page that is close to page one. Follow `docs/skill-frame.md`.
 
 ## Steps
 
-1. Read visibility.keywords_get for the page and keep queries whose position is 11 to 20 (`references/queries.md`).
+1. Read the Search Console Pages and Queries CSVs in search.local/exports/ and keep queries for this URL whose position is 11 to 20 (`references/queries.md`).
 
 2. Add or rewrite one section that answers those queries, and leave the rest of the page alone (`references/section.md`).
 
@@ -25,7 +25,7 @@ Refresh one page that is close to page one. Follow `docs/skill-frame.md`.
 
 ## Capabilities
 
-- `visibility.keywords_get`
+- None. This skill reads the local Search Console export. It does not call Dreamstate for page rows.
 
 ## Stop
 

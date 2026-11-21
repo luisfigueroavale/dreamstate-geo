@@ -2,7 +2,7 @@
   "name": "dreamstate-geo",
   "private": true,
   "type": "module",
-  "description": "Agent skills that get a site found in Google and named in AI answers, run on Dreamstate.",
+  "description": "Agent skills that help a site show up on Google and get named when an AI answer is written, run on Dreamstate.",
   "license": "MIT",
   "engines": {
     "node": ">=22"

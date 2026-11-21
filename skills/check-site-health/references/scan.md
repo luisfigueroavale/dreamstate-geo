@@ -1,5 +1,5 @@
 # Scan
 
-`visibility.site_scan` is not part of the free pass. Use it only when the owner says the cached audit is stale, or the tool tells you the cache is stale.
+`visibility.site_scan` costs 0 credits. It still changes the cache: it refreshes stored site data with real fetches. Optional input: `url`. Modes are `smoke_test`, `dry_run`, and `live`. A live call needs an `idempotency_key`.
 
-Quote first, wait for the owner's yes. If the price is unknown until the quote, show the quote and wait. Do not start the scan in the same breath as the free reads.
+Run it only when `visibility.pagespeed_get` reports `is_stale` (a strategy is missing, or the saved strategy is older than 25 hours). Dry-run it, show the preview, and wait for the owner's yes. Do not call it paid, and do not start it in the same breath as the free reads.

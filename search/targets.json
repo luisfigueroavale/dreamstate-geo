@@ -2,13 +2,13 @@
   "metrics": [
     {
       "id": "answer_mention_rate",
-      "source": "visibility.tracked_prompts.status",
+      "source": "visibility.prompt_metrics_list",
       "baseline": null,
       "target": null,
       "baseline_on": null,
       "target_on": null,
       "unit": "share of completed runs that name the brand",
-      "note": "Unknown until a tool returns a figure. Unknown is not zero."
+      "note": "From visibility_pct. If run_count and inconclusive_run_count are both 0, a 0 is unmeasured, not a real zero."
     },
     {
       "id": "answer_citation_share",

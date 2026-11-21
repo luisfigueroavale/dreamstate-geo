@@ -19,7 +19,7 @@ Find topics the site can honestly win. Follow `docs/skill-frame.md`.
 
 3. Group queries that bring up the same kinds of pages (`references/groups.md`).
 
-4. For a gap the owner wants filled, quote visibility.research.web_search at 2 credits, quote first, wait for the owner's yes, then run it (`references/search.md`).
+4. For a gap the owner wants filled, quote visibility.research.web_search at 4 credits a call, quote first, wait for the owner's yes, then run it (`references/search.md`).
 
 5. Score each topic for the reader, the offer, and the leave-alone list (`references/score.md`).
 

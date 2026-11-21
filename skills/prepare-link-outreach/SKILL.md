@@ -15,7 +15,7 @@ Draft link pitches. Do not send them. Follow `docs/skill-frame.md`.
 
 1. Read visibility.citations and pick pages that rank or that AI answers cite (`references/pick.md`).
 
-2. For a target page, quote visibility.research.urls_fetch at 1 credit, quote first, wait for the owner's yes, before the fetch (`references/fetch.md`).
+2. For the target pages, batch up to 5 URLs and quote visibility.research.urls_fetch at 2 credits a call, quote first, wait for the owner's yes, before the fetch (`references/fetch.md`).
 
 3. Check the public contact path on that page, and skip the target when none is public (`references/contact.md`).
 
@@ -26,7 +26,6 @@ Draft link pitches. Do not send them. Follow `docs/skill-frame.md`.
 ## Capabilities
 
 - `visibility.citations`
-- `visibility.keywords_get`
 - `visibility.research.urls_fetch`
 
 ## Stop

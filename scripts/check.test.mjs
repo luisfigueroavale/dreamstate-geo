@@ -47,6 +47,10 @@ test("capability ids in skills are a subset of the tool map", () => {
   const map = parseToolMap(readFileSync(path.join(root, "docs/tool-map.md"), "utf8"));
   assert.ok(map.paid.has("visibility.research.web_search"));
   assert.ok(map.paid.has("visibility.probe.start"));
+  assert.ok(map.paid.has("visibility.refresh"));
+  assert.equal(map.paid.has("visibility.site_scan"), false);
+  assert.ok(map.ids.has("visibility.prompt_metrics_list"));
+  assert.ok(map.ids.has("visibility.probe.latest"));
   assert.ok(map.ids.has("whoami"));
   const found = capabilityIds("`visibility.keywords_get` and `brand.local/voice.md`");
   assert.deepEqual([...found], ["visibility.keywords_get"]);

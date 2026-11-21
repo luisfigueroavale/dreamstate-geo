@@ -18,7 +18,7 @@ A paid call says: quote first, wait for the owner's yes. Show the quote, then wa
 
 ## Facts
 
-Do not invent a metric, a customer, or a product fact. Dreamstate plus the local files are the source. Ids and costs are in `docs/tool-map.md`. Those ids were not confirmed with `tools_get` when this repo was written. If a fetch says not found, stop.
+Do not invent a metric, a customer, or a product fact. Dreamstate plus the local files are the source. Ids and costs are in `docs/tool-map.md`. A freshly fetched schema wins over that page. If a fetch says not found, stop.
 
 Only figures a tool returned go into a report. Unknown is not zero.
 

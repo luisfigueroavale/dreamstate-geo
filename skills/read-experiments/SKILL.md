@@ -13,7 +13,7 @@ Turn shipped changes into verdicts. Follow `docs/skill-frame.md`.
 
 ## Steps
 
-1. Read search.local/changes.json and fetch rows with visibility.keywords_get (`references/read.md`).
+1. Read search.local/changes.json and the Search Console CSVs in search.local/exports/ (`references/read.md`).
 
 2. Run node scripts/read-changes.mjs with the changes file, the rows file, and today's date (`references/script.md`).
 
@@ -25,7 +25,7 @@ Turn shipped changes into verdicts. Follow `docs/skill-frame.md`.
 
 ## Capabilities
 
-- `visibility.keywords_get`
+- None. Page rows come from the local Search Console export, not from a Dreamstate call.
 
 ## Stop
 

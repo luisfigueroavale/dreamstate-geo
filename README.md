@@ -1,6 +1,6 @@
 # Dreamstate GEO
 
-**Agent skills that get your site found in Google and named in AI answers, run on Dreamstate.**
+**Agent skills that help your site show up on Google and get named when an AI answer is written, run on Dreamstate.**
 
 GEO means generative engine optimization. It is SEO for AI answers. An answer engine searches the web, then quotes a short passage from a page. The pages it quotes are indexed, answer the question in the first lines, answer again under every heading, and back each fact with a source. The plain map is [docs/start-here.md](docs/start-here.md).
 
@@ -29,7 +29,7 @@ It will not publish a page, merge, post, send, request anything in your Google a
 
 4. Give your X handle and LinkedIn profile URL. `derive-voice-rules` learns your voice from your own posts and writes neither value into a tracked file.
 5. Copy the search templates and fill the plan with the agent: `cp -r search search.local`. Company facts stay in Company Context. The plan only points at them.
-6. The agent reads Search Console, tracked prompts, and site health from Dreamstate. Those reads are free. It writes your first day report under `work/`.
+6. The agent reads Search Console totals, tracked prompts, and site health from Dreamstate. Those reads are free. For page-level rows, download the free Search Console Pages and Queries CSVs into `search.local/exports/`. The agent writes your first day report under `work/`.
 7. It briefs your first comparison page. You write that first page yourself. It becomes the model for the rest.
 8. From this folder, run `npm install` and `npm run check`.
 9. Stop. Nothing has shipped.
@@ -50,18 +50,18 @@ It will not publish a page, merge, post, send, request anything in your Google a
 | `derive-voice-rules` | Setup | Learns voice rules from your own posts | Free |
 | `read-search-day` | Daily read | Targets, due readings, page-two queue, index gaps, AI-answer line | Free |
 | `plan-search-week` | Plan | Up to four packets for the week | Free |
-| `find-search-topics` | Research | Topics from your material, then Search Console, then a quoted search | 2 credits a search, quoted first, cap in the plan |
-| `write-search-brief` | Brief | One brief, checked by `brief-check.mjs` | 1 credit a fetched page, quoted first |
+| `find-search-topics` | Research | Topics from your material, then Search Console, then a quoted search | 4 credits a search call, quoted first, cap in the plan |
+| `write-search-brief` | Brief | One brief, checked by `brief-check.mjs` | 2 credits a fetch call (up to 5 URLs), quoted first |
 | `write-search-page` | Write | Drafts the page in your voice | Free |
-| `review-search-page` | Check | A second agent lints, scores, and returns PASS or FAIL | 1 credit a page only if a source must be re-read, quoted |
+| `review-search-page` | Check | A second agent lints, scores, and returns PASS or FAIL | 2 credits a fetch call only if a source must be re-read, quoted |
 | `refresh-ranking-page` | Refresh | One new section for queries in positions 11 to 20, as a pull request | Free |
-| `check-site-health` | Health | Robots, sitemap, speed, and HTML, each on its own line | Free reads. A scan is quoted |
+| `check-site-health` | Health | Robots, sitemap, speed, and HTML, each on its own line | Free. A scan costs 0 credits, refreshes the cache, and waits for a yes |
 | `queue-indexing` | Index | A list of links. You click Request indexing | Free |
-| `track-ai-answers` | Measure | The 25 prompts, with real denominators. A probe is quoted | Probe quoted each time |
+| `track-ai-answers` | Measure | The 25 prompts, with real denominators. A probe is ChatGPT only | 148 credits a probe, dry-run first |
 | `read-experiments` | Learn | Verdicts with a control group. Pauses a kind after two flat or worse full readings | Free |
-| `prepare-link-outreach` | Links | One pitch and one follow-up per target. Drafts only | 1 credit a fetch, quoted |
+| `prepare-link-outreach` | Links | One pitch and one follow-up per target. Drafts only | 2 credits a fetch call (up to 5 URLs), quoted |
 
-The index is [skills/README.md](skills/README.md). Costs and consent for every id are in [docs/tool-map.md](docs/tool-map.md). Those ids were not confirmed with a live fetch when this repo was written.
+The index is [skills/README.md](skills/README.md). Costs, inputs, and consent for every id are in [docs/tool-map.md](docs/tool-map.md). A freshly fetched schema still wins over that page.
 
 ## Map
 

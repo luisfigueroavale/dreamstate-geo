@@ -14,8 +14,8 @@ The workspace cap is 25 active prompts. `track-ai-answers` reads the set. It doe
 
 ## How a prompt leaves
 
-Write the old prompt, the new prompt, and the date in the local file. Say that the change starts a new baseline. Do not compare a new set with the old set and call the difference a win.
+Write the old prompt, the new prompt, and the date in the local file. When the list changes, rates start over from that date. Do not compare a new set with the old set and call the difference a win.
 
 ## What a report must show
 
-Completed runs, mentions, citations, and the percentage, per engine and per locale. Zero completed runs is unavailable, not 0%.
+`run_count`, `citation_count`, and `visibility_pct` from `visibility.prompt_metrics_list`. A probe hits ChatGPT only. Name another engine only when the tool lists it. If `run_count` and `inconclusive_run_count` are both 0, a `visibility_pct` of 0 is unmeasured, not a real zero.

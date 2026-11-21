@@ -19,7 +19,7 @@ Score the page with the gates and the six areas. Follow `docs/skill-frame.md`.
 
 3. Apply the six gates and the six scores in the rubric (`references/rubric.md`).
 
-4. Re-read a source only when the brief is not enough: quote visibility.research.urls_fetch at 1 credit, quote first, wait for the owner's yes (`references/sources.md`).
+4. Re-read a source only when the brief is not enough: batch up to 5 URLs and quote visibility.research.urls_fetch at 2 credits a call, quote first, wait for the owner's yes (`references/sources.md`).
 
 5. Return PASS or FAIL with the fixes, using the pass line in the rubric (`references/verdict.md`).
 

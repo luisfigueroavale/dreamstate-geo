@@ -17,7 +17,7 @@ Draft the page from a ready brief. Follow `docs/skill-frame.md`.
 
 2. Read company facts through knowledge.context.resolve and do not paste them into a tracked file (`references/facts.md`).
 
-3. Write the page so the answer is in the first 60 words and the first sentence under each heading answers that heading (`references/shape.md`).
+3. Write the page so the answer is in the first 60 words, and so the sentence that opens each section settles that heading (`references/shape.md`).
 
 4. Attach every outside fact to the source URL and the date in the brief (`references/sources.md`).
 

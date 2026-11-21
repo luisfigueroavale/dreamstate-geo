@@ -10,7 +10,7 @@ Company facts come from Company Context through `knowledge.context.resolve`. His
 
 Call `whoami` before the first Dreamstate read in a session. If more than one workspace is listed, ask which one and stop until the owner names it. The server is the single URL in [.mcp.json](.mcp.json). Do not add a second server. Do not paste a key. Sign in through the browser.
 
-`tools_get` the capability before every `tools_run`. The schema you just fetched wins over this repo. Every id in [docs/tool-map.md](docs/tool-map.md) was unconfirmed at the time this repo was written. If `tools_get` returns not found, stop. Do not invent an id.
+`tools_get` the capability before every `tools_run`. The schema you just fetched wins over this repo, including over [docs/tool-map.md](docs/tool-map.md). If `tools_get` returns not found, stop. Do not invent an id.
 
 ## Consent
 

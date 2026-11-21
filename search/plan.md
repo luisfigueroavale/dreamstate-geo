@@ -32,7 +32,7 @@ Pages other sites already cite, if a tool returned them. Leave this blank when u
 
 ## Weekly research cap
 
-Paid searches this week, for `visibility.research.web_search`. The owner sets the cap:
+Paid `visibility.research.web_search` calls this week. Each call is 4 credits. The owner sets the cap:
 
 ## Company Context
 

@@ -1,6 +1,6 @@
 # Start here
 
-This repo is a folder of skills. An agent uses the skills to get a site found in Google and named in AI answers. You approve every page that goes live and every message that goes out.
+This repo is a folder of skills. An agent uses the skills so your site can show up on Google and an AI answer can name it. You approve every page that goes live and every message that goes out.
 
 GEO means generative engine optimization. It is SEO for AI answers. An answer engine searches the web, then quotes a short passage from a page. The pages it quotes are indexed, answer the question in the first lines, answer again under every heading, and back each fact with a source.
 

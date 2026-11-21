@@ -17,7 +17,7 @@ Write one brief and prove it is complete. Follow `docs/skill-frame.md`.
 
 2. Fill the fields from the topic note, search.local/plan.md, and Company Context (`references/fields.md`).
 
-3. For each competitor page, quote visibility.research.urls_fetch at 1 credit, quote first, wait for the owner's yes, then fetch (`references/sources.md`).
+3. For competitor pages, batch up to 5 URLs and quote visibility.research.urls_fetch at 2 credits a call, quote first, wait for the owner's yes, then fetch (`references/sources.md`).
 
 4. Record each outside fact with that page URL and the date you read it (`references/sources.md`).
 

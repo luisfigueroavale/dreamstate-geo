@@ -19,4 +19,4 @@ Each piece is a Chief of Staff packet with four fields: Goal, Inputs, Skill, Gua
 
 ## What does not move on its own
 
-A paid search, a page fetch, a site scan, and an answer probe stay as quotes until you say yes to that quote. A draft pitch is not a sent email. A pull request is not a merge.
+A paid search, a page fetch, a Search Console refresh, and an answer probe stay as quotes until you say yes to that quote. A site scan costs 0 credits and still waits, because it fetches pages into the cache. A draft pitch is not a sent email. A pull request is not a merge.
